@@ -1,0 +1,6 @@
+app
+node_modules
+.DS_Store
+.eslintrc.js
+.htmlhintrc
+src/js/app-core/constants/*
