@@ -1,7 +1,9 @@
 @import 'bourbon';
 @import 'neat';
 @import 'font-awesome';
+
 @import './partials/type';
+@import './partials/sidepanel';
 @import './partials/large';
 @import './partials/small';
 
@@ -65,7 +67,11 @@ p {
     font-weight: 700;
   }
 }
-
+.hamburger {
+  position:fixed;
+  top:50px;
+  right: 0;
+}
 
 #layout-container, #app{
   display: flex;
@@ -82,9 +88,10 @@ p {
   flex-direction: column;
   width: 100%;
   max-width: 600px;
-  background-image: url('../img/davinci-tenacious-d.jpg');
-  background-size: cover;
-  background-position: left;
+  // background-image: url('../img/plum-blossom.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 30px;
   box-sizing: border-box;
   color: #fff;
@@ -193,4 +200,6 @@ p {
     transform: scale(1);
   }
 }
+
+
 
