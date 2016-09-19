@@ -23,6 +23,11 @@ let sidePanel = function() {
                     $('.fa').removeClass('fixed');
                 }
             });
+
+            element.find('a').on('click', () => {
+                $(window).scrollTop($('.view-container').offset().top, 1000);
+                console.log('hello from directive');
+            });
         }
     };
 
