@@ -7,10 +7,12 @@ import AboutCtrl from './controllers/AboutCtrl.controller';
 import VideoCtrl from './controllers/VideoCtrl.controller';
 
 //directives
-import hero from './directives/hero.directive';
-import mainContent from './directives/mainContent.directive';
+import hero         from './directives/hero.directive';
+import mainContent  from './directives/mainContent.directive';
 import aboutContent from './directives/aboutContent.directive';
 import videoContent from './directives/videoContent.directive';
+import sidePanel    from './directives/sidePanel.directive';
+
 angular
     .module('app.layout', [])
     .controller('HomeCtrl', HomeCtrl)
@@ -21,4 +23,5 @@ angular
     .directive('mainContent', mainContent)
     .directive('aboutContent', aboutContent)
     .directive('videoContent', videoContent)
+    .directive('sidePanel', sidePanel)
     ;
