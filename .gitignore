@@ -4,3 +4,6 @@ node_modules
 .eslintrc.js
 .htmlhintrc
 src/js/app-core/constants/*
+
+!app/templates/**/*
+!app/index.html
