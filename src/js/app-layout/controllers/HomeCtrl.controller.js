@@ -3,7 +3,7 @@ let HomeCtrl = function() {
     vm.title = 'Miami Self-Defense';
     
     vm.welcome = 'Welcome';
-    vm.schedule = 'class schedule';
+    vm.schedule = 'Student Bulletin';
 
 };
 

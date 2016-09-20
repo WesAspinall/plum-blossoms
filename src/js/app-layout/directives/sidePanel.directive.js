@@ -9,7 +9,7 @@ let sidePanel = function() {
         scope: {},
 
         transclude: true,
-        templateUrl: './templates/side-panel.tpl.html',
+        templateUrl: './templates/content/side-panel.tpl.html',
 
         link: function(scope, element, attrs) {
             $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart', function(e) {

@@ -4,26 +4,30 @@ let config = function($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('root', {
             abstract: true,
-            templateUrl: './templates/layout.tpl.html',
+            templateUrl: './templates/view-containers/layout.tpl.html',
             controller: 'AbstractCtrl as abstract'
         })
         .state('root.home', {
             url: '/',
             controller: 'HomeCtrl as vm',
-            templateUrl: './templates/home.tpl.html'
+            templateUrl: './templates/view-containers/home.tpl.html'
         })
         .state('root.about', {
             url: '/about',
             controller: 'AboutCtrl as vm',
-            templateUrl: './templates/about.tpl.html'
+            templateUrl: './templates/view-containers/about.tpl.html'
         })
         .state('root.watch', {
             url: '/watch',
             controller: 'VideoCtrl as vm',
-            templateUrl: './templates/video.tpl.html'
+            templateUrl: './templates/view-containers/video.tpl.html'
         })
-        ;
-};   
+        .state('root.private', {
+            url: '/private',
+            controller: 'PrivateCtrl as vm',
+            templateUrl: './templates/view-containers/private.tpl.html'
+        });
+};
 
 config.$inject = ['$stateProvider', '$urlRouterProvider'];
 

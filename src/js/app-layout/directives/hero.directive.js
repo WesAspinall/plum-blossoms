@@ -8,7 +8,7 @@ let hero = function() {
             title: '='
         },
         transclude: true,
-        templateUrl: './templates/hero.tpl.html',
+        templateUrl: './templates/content/hero.tpl.html',
     };
 
 };
