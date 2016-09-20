@@ -9,7 +9,7 @@ let aboutContent = function() {
             sifu: '='
         },
         transclude: true,
-        templateUrl: './templates/about-content.tpl.html'
+        templateUrl: './templates/content/about-content.tpl.html'
 
     };
 

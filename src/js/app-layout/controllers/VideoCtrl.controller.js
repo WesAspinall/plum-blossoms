@@ -1,7 +1,7 @@
 let VideoCtrl = function() {
     let vm = this;
     vm.title = 'Watch';
-    vm.subtitle = 'recommended videos';
+    vm.subtitle = 'Recommended Videos';
 
 };
 

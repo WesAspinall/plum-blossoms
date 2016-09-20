@@ -1,11 +1,11 @@
-let AboutCtrl = function() {
+let AboutCtrl = function(API) {
     
     let vm = this;
     vm.title = 'About';
     vm.sifu = 'Sifu Edgar';
-    console.log('hello from AboutCtrl');
+    
 };
 
-AboutCtrl.$inject = [];
+AboutCtrl.$inject = ['API'];
 
 export default AboutCtrl;

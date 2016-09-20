@@ -1,4 +1,4 @@
-let mainContent = function() {
+let homeContent = function() {
 
     return {
 
@@ -9,11 +9,11 @@ let mainContent = function() {
             schedule: '='
         },
         transclude: true,
-        templateUrl: './templates/main-content.tpl.html'
+        templateUrl: './templates/content/home-content.tpl.html'
 
     };
 
 };
-mainContent.$inject = [];
+homeContent.$inject = [];
 
-export default mainContent;
+export default homeContent;

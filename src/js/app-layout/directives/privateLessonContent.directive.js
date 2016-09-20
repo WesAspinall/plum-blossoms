@@ -1,4 +1,4 @@
-let videoContent = function() {
+let privateLessonContent = function() {
 
     return {
 
@@ -9,11 +9,11 @@ let videoContent = function() {
             subtitle: '='
         },
         transclude: true,
-        templateUrl: './templates/content/video-content.tpl.html'
+        templateUrl: './templates/content/private-lesson.tpl.html'
 
     };
 
 };
-videoContent.$inject = [];
+privateLessonContent.$inject = [];
 
-export default videoContent;
+export default privateLessonContent;
