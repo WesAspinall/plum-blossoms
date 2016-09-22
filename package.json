@@ -4,7 +4,9 @@
   "description": "mei hua kung-fu affiliate website",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "test": "karma start",
+    "deploy": "gulp production --deploy"
   },
   "keywords": [
    "kung fu",
