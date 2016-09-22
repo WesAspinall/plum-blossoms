@@ -1,9 +1,10 @@
-app
+dist
 node_modules
 .DS_Store
-.eslintrc.js
-.htmlhintrc
-src/js/app-core/constants/*
-
-!app/templates/**/*
-!app/index.html
+.tmp
+.sass-cache
+*.sublime-*
+.jekyll-metadata
+.idea
+npm-debug.log
+templates.js
