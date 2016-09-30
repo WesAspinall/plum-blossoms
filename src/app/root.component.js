@@ -1,3 +1,7 @@
-let root = {
-    templateUrl: './root.tpl.html'
-}
+var root = {
+  templateUrl: './root.html'
+};
+
+angular
+  .module('root')
+  .component('root', root);
