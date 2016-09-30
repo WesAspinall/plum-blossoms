@@ -83,7 +83,7 @@ gulp.task('scripts', ['modules'], () => {
 gulp.task('serve', () => {
   return server.init({
     files: [`${paths.dist}/**`],
-    port: 8000,
+    port: 4000,
     server: {
       baseDir: paths.dist
     }

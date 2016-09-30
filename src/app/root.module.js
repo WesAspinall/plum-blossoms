@@ -1,7 +1,6 @@
-import angular from 'angular';
-
 angular
-    .module('root', [
-        'common', 
-        'components'
-    ]);
+  .module('root', [
+    'common',
+    'components',
+    'templates'
+  ]);
